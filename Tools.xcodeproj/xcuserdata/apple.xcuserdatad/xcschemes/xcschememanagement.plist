@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>DrawView抽屉效果.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>MBProgressHUD(Loading效果使用).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>18BD75471C9049F100FEBCC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18BD756C1C9057CF00FEBCC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
