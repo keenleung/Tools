@@ -22,6 +22,8 @@
     [super viewDidLoad];
     
 }
+- (IBAction)buttonDidClicked:(UIButton *)sender {
+}
 
 - (IBAction)showButtonDidClicked:(UIButton *)sender{
     

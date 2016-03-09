@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>DoAlertView(消息提醒).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>MBProgressHUD(Loading效果使用).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Tools.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +43,16 @@
 			<true/>
 		</dict>
 		<key>18BD74E91C9046EC00FEBCC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18BD75041C90487E00FEBCC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18BD75471C9049F100FEBCC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
