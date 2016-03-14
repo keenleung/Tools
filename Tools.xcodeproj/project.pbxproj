@@ -61,6 +61,13 @@
 		18BD757F1C9057CF00FEBCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BD757D1C9057CF00FEBCC4 /* LaunchScreen.storyboard */; };
 		18BD75891C90584100FEBCC4 /* DragerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD75881C90584100FEBCC4 /* DragerViewController.m */; };
 		18BD758C1C9058CD00FEBCC4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD758B1C9058CD00FEBCC4 /* TableViewController.m */; };
+		18F2CAB31C971A5900F3988B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAB21C971A5900F3988B /* main.m */; };
+		18F2CAB61C971A5900F3988B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAB51C971A5900F3988B /* AppDelegate.m */; };
+		18F2CAB91C971A5900F3988B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAB81C971A5900F3988B /* ViewController.m */; };
+		18F2CABC1C971A5900F3988B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CABA1C971A5900F3988B /* Main.storyboard */; };
+		18F2CABE1C971A5900F3988B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CABD1C971A5900F3988B /* Assets.xcassets */; };
+		18F2CAC11C971A5900F3988B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CABF1C971A5900F3988B /* LaunchScreen.storyboard */; };
+		18F2CAC91C971A6F00F3988B /* LBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAC81C971A6F00F3988B /* LBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -159,6 +166,18 @@
 		18BD75881C90584100FEBCC4 /* DragerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragerViewController.m; sourceTree = "<group>"; };
 		18BD758A1C9058CD00FEBCC4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		18BD758B1C9058CD00FEBCC4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		18F2CAAF1C971A5900F3988B /* LBProgressHUD的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBProgressHUD的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2CAB21C971A5900F3988B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F2CAB41C971A5900F3988B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F2CAB51C971A5900F3988B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F2CAB71C971A5900F3988B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F2CAB81C971A5900F3988B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F2CABB1C971A5900F3988B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F2CABD1C971A5900F3988B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F2CAC01C971A5900F3988B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F2CAC21C971A5900F3988B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2CAC71C971A6F00F3988B /* LBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressHUD.h; sourceTree = "<group>"; };
+		18F2CAC81C971A6F00F3988B /* LBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +223,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18F2CAAC1C971A5900F3988B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -216,6 +242,7 @@
 				18BD75061C90487E00FEBCC4 /* DoAlertView(消息提醒) */,
 				18BD75491C9049F100FEBCC4 /* MBProgressHUD(Loading效果使用) */,
 				18BD756E1C9057CF00FEBCC4 /* DragerView抽屉效果 */,
+				18F2CAB01C971A5900F3988B /* LBProgressHUD的使用 */,
 				18BD74BA1C90454100FEBCC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -229,6 +256,7 @@
 				18BD75051C90487E00FEBCC4 /* DoAlertView(消息提醒).app */,
 				18BD75481C9049F100FEBCC4 /* MBProgressHUD(Loading效果使用).app */,
 				18BD756D1C9057CF00FEBCC4 /* DrawView抽屉效果.app */,
+				18F2CAAF1C971A5900F3988B /* LBProgressHUD的使用.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -490,6 +518,40 @@
 			path = Drager;
 			sourceTree = "<group>";
 		};
+		18F2CAB01C971A5900F3988B /* LBProgressHUD的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CAC61C971A6F00F3988B /* LBProgressHUD */,
+				18F2CAB41C971A5900F3988B /* AppDelegate.h */,
+				18F2CAB51C971A5900F3988B /* AppDelegate.m */,
+				18F2CAB71C971A5900F3988B /* ViewController.h */,
+				18F2CAB81C971A5900F3988B /* ViewController.m */,
+				18F2CABA1C971A5900F3988B /* Main.storyboard */,
+				18F2CABD1C971A5900F3988B /* Assets.xcassets */,
+				18F2CABF1C971A5900F3988B /* LaunchScreen.storyboard */,
+				18F2CAC21C971A5900F3988B /* Info.plist */,
+				18F2CAB11C971A5900F3988B /* Supporting Files */,
+			);
+			path = "LBProgressHUD的使用";
+			sourceTree = "<group>";
+		};
+		18F2CAB11C971A5900F3988B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CAB21C971A5900F3988B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F2CAC61C971A6F00F3988B /* LBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CAC71C971A6F00F3988B /* LBProgressHUD.h */,
+				18F2CAC81C971A6F00F3988B /* LBProgressHUD.m */,
+			);
+			path = LBProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -595,6 +657,23 @@
 			productReference = 18BD756D1C9057CF00FEBCC4 /* DrawView抽屉效果.app */;
 			productType = "com.apple.product-type.application";
 		};
+		18F2CAAE1C971A5900F3988B /* LBProgressHUD的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2CAC31C971A5900F3988B /* Build configuration list for PBXNativeTarget "LBProgressHUD的使用" */;
+			buildPhases = (
+				18F2CAAB1C971A5900F3988B /* Sources */,
+				18F2CAAC1C971A5900F3988B /* Frameworks */,
+				18F2CAAD1C971A5900F3988B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LBProgressHUD的使用";
+			productName = "LBProgressHUD的使用";
+			productReference = 18F2CAAF1C971A5900F3988B /* LBProgressHUD的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -627,6 +706,10 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 9SR8XPM7L8;
 					};
+					18F2CAAE1C971A5900F3988B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9SR8XPM7L8;
+					};
 				};
 			};
 			buildConfigurationList = 18BD74B41C90454100FEBCC4 /* Build configuration list for PBXProject "Tools" */;
@@ -648,6 +731,7 @@
 				18BD75041C90487E00FEBCC4 /* DoAlertView(消息提醒) */,
 				18BD75471C9049F100FEBCC4 /* MBProgressHUD(Loading效果使用) */,
 				18BD756C1C9057CF00FEBCC4 /* DrawView抽屉效果 */,
+				18F2CAAE1C971A5900F3988B /* LBProgressHUD的使用 */,
 			);
 		};
 /* End PBXProject section */
@@ -714,6 +798,16 @@
 				18BD757F1C9057CF00FEBCC4 /* LaunchScreen.storyboard in Resources */,
 				18BD757C1C9057CF00FEBCC4 /* Assets.xcassets in Resources */,
 				18BD757A1C9057CF00FEBCC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CAAD1C971A5900F3988B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CAC11C971A5900F3988B /* LaunchScreen.storyboard in Resources */,
+				18F2CABE1C971A5900F3988B /* Assets.xcassets in Resources */,
+				18F2CABC1C971A5900F3988B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,6 +878,17 @@
 				18BD75741C9057CF00FEBCC4 /* AppDelegate.m in Sources */,
 				18BD758C1C9058CD00FEBCC4 /* TableViewController.m in Sources */,
 				18BD75711C9057CF00FEBCC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CAAB1C971A5900F3988B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CAB91C971A5900F3988B /* ViewController.m in Sources */,
+				18F2CAB61C971A5900F3988B /* AppDelegate.m in Sources */,
+				18F2CAC91C971A6F00F3988B /* LBProgressHUD.m in Sources */,
+				18F2CAB31C971A5900F3988B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,6 +971,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				18BD757E1C9057CF00FEBCC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18F2CABA1C971A5900F3988B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2CABB1C971A5900F3988B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F2CABF1C971A5900F3988B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2CAC01C971A5900F3988B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1111,6 +1232,35 @@
 			};
 			name = Release;
 		};
+		18F2CAC41C971A5900F3988B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LBProgressHUD的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenleung.LBProgressHUD---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F2CAC51C971A5900F3988B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LBProgressHUD的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenleung.LBProgressHUD---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1173,6 +1323,15 @@
 			buildConfigurations = (
 				18BD75811C9057CF00FEBCC4 /* Debug */,
 				18BD75821C9057CF00FEBCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2CAC31C971A5900F3988B /* Build configuration list for PBXNativeTarget "LBProgressHUD的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CAC41C971A5900F3988B /* Debug */,
+				18F2CAC51C971A5900F3988B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

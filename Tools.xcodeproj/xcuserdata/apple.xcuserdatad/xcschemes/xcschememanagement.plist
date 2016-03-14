@@ -24,6 +24,16 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>LBProgressHUD.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>LBProgressHUD的使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>MBProgressHUD(Loading效果使用).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -63,6 +73,16 @@
 			<true/>
 		</dict>
 		<key>18BD756C1C9057CF00FEBCC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18F2CA8B1C9715B100F3988B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18F2CAAE1C971A5900F3988B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
