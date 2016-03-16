@@ -61,6 +61,14 @@
 		18BD757F1C9057CF00FEBCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BD757D1C9057CF00FEBCC4 /* LaunchScreen.storyboard */; };
 		18BD75891C90584100FEBCC4 /* DragerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD75881C90584100FEBCC4 /* DragerViewController.m */; };
 		18BD758C1C9058CD00FEBCC4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD758B1C9058CD00FEBCC4 /* TableViewController.m */; };
+		18E286FF1C99B4C4007FEAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E286FE1C99B4C4007FEAA6 /* main.m */; };
+		18E287021C99B4C4007FEAA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E287011C99B4C4007FEAA6 /* AppDelegate.m */; };
+		18E287051C99B4C4007FEAA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E287041C99B4C4007FEAA6 /* ViewController.m */; };
+		18E287081C99B4C4007FEAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E287061C99B4C4007FEAA6 /* Main.storyboard */; };
+		18E2870A1C99B4C4007FEAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E287091C99B4C4007FEAA6 /* Assets.xcassets */; };
+		18E2870D1C99B4C4007FEAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E2870B1C99B4C4007FEAA6 /* LaunchScreen.storyboard */; };
+		18E2871E1C99B5DD007FEAA6 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2871C1C99B5DD007FEAA6 /* PageView.m */; };
+		18E2871F1C99B5DD007FEAA6 /* PageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E2871D1C99B5DD007FEAA6 /* PageView.xib */; };
 		18F2CAB31C971A5900F3988B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAB21C971A5900F3988B /* main.m */; };
 		18F2CAB61C971A5900F3988B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAB51C971A5900F3988B /* AppDelegate.m */; };
 		18F2CAB91C971A5900F3988B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAB81C971A5900F3988B /* ViewController.m */; };
@@ -166,6 +174,19 @@
 		18BD75881C90584100FEBCC4 /* DragerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragerViewController.m; sourceTree = "<group>"; };
 		18BD758A1C9058CD00FEBCC4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		18BD758B1C9058CD00FEBCC4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		18E286FB1C99B4C4007FEAA6 /* ImageCycle(图片无线轮播).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageCycle(图片无线轮播).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E286FE1C99B4C4007FEAA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E287001C99B4C4007FEAA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E287011C99B4C4007FEAA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E287031C99B4C4007FEAA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E287041C99B4C4007FEAA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E287071C99B4C4007FEAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E287091C99B4C4007FEAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E2870C1C99B4C4007FEAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E2870E1C99B4C4007FEAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E2871B1C99B5DD007FEAA6 /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
+		18E2871C1C99B5DD007FEAA6 /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		18E2871D1C99B5DD007FEAA6 /* PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageView.xib; sourceTree = "<group>"; };
 		18F2CAAF1C971A5900F3988B /* LBProgressHUD的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBProgressHUD的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F2CAB21C971A5900F3988B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F2CAB41C971A5900F3988B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -223,6 +244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18E286F81C99B4C4007FEAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18F2CAAC1C971A5900F3988B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +271,7 @@
 				18BD75491C9049F100FEBCC4 /* MBProgressHUD(Loading效果使用) */,
 				18BD756E1C9057CF00FEBCC4 /* DragerView抽屉效果 */,
 				18F2CAB01C971A5900F3988B /* LBProgressHUD的使用 */,
+				18E286FC1C99B4C4007FEAA6 /* ImageCycle(图片无线轮播) */,
 				18BD74BA1C90454100FEBCC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -257,6 +286,7 @@
 				18BD75481C9049F100FEBCC4 /* MBProgressHUD(Loading效果使用).app */,
 				18BD756D1C9057CF00FEBCC4 /* DrawView抽屉效果.app */,
 				18F2CAAF1C971A5900F3988B /* LBProgressHUD的使用.app */,
+				18E286FB1C99B4C4007FEAA6 /* ImageCycle(图片无线轮播).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -518,6 +548,49 @@
 			path = Drager;
 			sourceTree = "<group>";
 		};
+		18E286FC1C99B4C4007FEAA6 /* ImageCycle(图片无线轮播) */ = {
+			isa = PBXGroup;
+			children = (
+				18E287191C99B592007FEAA6 /* other */,
+				18E2871A1C99B5DD007FEAA6 /* xib */,
+				18E287031C99B4C4007FEAA6 /* ViewController.h */,
+				18E287041C99B4C4007FEAA6 /* ViewController.m */,
+				18E287091C99B4C4007FEAA6 /* Assets.xcassets */,
+				18E286FD1C99B4C4007FEAA6 /* Supporting Files */,
+			);
+			path = "ImageCycle(图片无线轮播)";
+			sourceTree = "<group>";
+		};
+		18E286FD1C99B4C4007FEAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E286FE1C99B4C4007FEAA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E287191C99B592007FEAA6 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				18E287001C99B4C4007FEAA6 /* AppDelegate.h */,
+				18E287011C99B4C4007FEAA6 /* AppDelegate.m */,
+				18E287061C99B4C4007FEAA6 /* Main.storyboard */,
+				18E2870B1C99B4C4007FEAA6 /* LaunchScreen.storyboard */,
+				18E2870E1C99B4C4007FEAA6 /* Info.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		18E2871A1C99B5DD007FEAA6 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				18E2871B1C99B5DD007FEAA6 /* PageView.h */,
+				18E2871C1C99B5DD007FEAA6 /* PageView.m */,
+				18E2871D1C99B5DD007FEAA6 /* PageView.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
 		18F2CAB01C971A5900F3988B /* LBProgressHUD的使用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,6 +730,23 @@
 			productReference = 18BD756D1C9057CF00FEBCC4 /* DrawView抽屉效果.app */;
 			productType = "com.apple.product-type.application";
 		};
+		18E286FA1C99B4C4007FEAA6 /* ImageCycle(图片无线轮播) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E2870F1C99B4C4007FEAA6 /* Build configuration list for PBXNativeTarget "ImageCycle(图片无线轮播)" */;
+			buildPhases = (
+				18E286F71C99B4C4007FEAA6 /* Sources */,
+				18E286F81C99B4C4007FEAA6 /* Frameworks */,
+				18E286F91C99B4C4007FEAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageCycle(图片无线轮播)";
+			productName = "ImageCycle(图片无线轮播)";
+			productReference = 18E286FB1C99B4C4007FEAA6 /* ImageCycle(图片无线轮播).app */;
+			productType = "com.apple.product-type.application";
+		};
 		18F2CAAE1C971A5900F3988B /* LBProgressHUD的使用 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F2CAC31C971A5900F3988B /* Build configuration list for PBXNativeTarget "LBProgressHUD的使用" */;
@@ -706,6 +796,10 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 9SR8XPM7L8;
 					};
+					18E286FA1C99B4C4007FEAA6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9SR8XPM7L8;
+					};
 					18F2CAAE1C971A5900F3988B = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 9SR8XPM7L8;
@@ -732,6 +826,7 @@
 				18BD75471C9049F100FEBCC4 /* MBProgressHUD(Loading效果使用) */,
 				18BD756C1C9057CF00FEBCC4 /* DrawView抽屉效果 */,
 				18F2CAAE1C971A5900F3988B /* LBProgressHUD的使用 */,
+				18E286FA1C99B4C4007FEAA6 /* ImageCycle(图片无线轮播) */,
 			);
 		};
 /* End PBXProject section */
@@ -798,6 +893,17 @@
 				18BD757F1C9057CF00FEBCC4 /* LaunchScreen.storyboard in Resources */,
 				18BD757C1C9057CF00FEBCC4 /* Assets.xcassets in Resources */,
 				18BD757A1C9057CF00FEBCC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E286F91C99B4C4007FEAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E2870D1C99B4C4007FEAA6 /* LaunchScreen.storyboard in Resources */,
+				18E2871F1C99B5DD007FEAA6 /* PageView.xib in Resources */,
+				18E2870A1C99B4C4007FEAA6 /* Assets.xcassets in Resources */,
+				18E287081C99B4C4007FEAA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -878,6 +984,17 @@
 				18BD75741C9057CF00FEBCC4 /* AppDelegate.m in Sources */,
 				18BD758C1C9058CD00FEBCC4 /* TableViewController.m in Sources */,
 				18BD75711C9057CF00FEBCC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E286F71C99B4C4007FEAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E287051C99B4C4007FEAA6 /* ViewController.m in Sources */,
+				18E2871E1C99B5DD007FEAA6 /* PageView.m in Sources */,
+				18E287021C99B4C4007FEAA6 /* AppDelegate.m in Sources */,
+				18E286FF1C99B4C4007FEAA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,6 +1088,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				18BD757E1C9057CF00FEBCC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18E287061C99B4C4007FEAA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E287071C99B4C4007FEAA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E2870B1C99B4C4007FEAA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E2870C1C99B4C4007FEAA6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1232,6 +1365,35 @@
 			};
 			name = Release;
 		};
+		18E287101C99B4C4007FEAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ImageCycle(图片无线轮播)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenleung.ImageCycle--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E287111C99B4C4007FEAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ImageCycle(图片无线轮播)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenleung.ImageCycle--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		18F2CAC41C971A5900F3988B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1327,6 +1489,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		18E2870F1C99B4C4007FEAA6 /* Build configuration list for PBXNativeTarget "ImageCycle(图片无线轮播)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E287101C99B4C4007FEAA6 /* Debug */,
+				18E287111C99B4C4007FEAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		18F2CAC31C971A5900F3988B /* Build configuration list for PBXNativeTarget "LBProgressHUD的使用" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1334,6 +1504,7 @@
 				18F2CAC51C971A5900F3988B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

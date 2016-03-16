@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PageView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4FB-Nc-B4e">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="1DE-dg-1y0"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="RUK-gp-Po9">
+                    <rect key="frame" x="190" y="90" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4FB-Nc-B4e" secondAttribute="bottom" id="AUy-Fy-JAs"/>
+                <constraint firstItem="4FB-Nc-B4e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GST-5j-iZS"/>
+                <constraint firstAttribute="bottom" secondItem="RUK-gp-Po9" secondAttribute="bottom" constant="3" id="LDM-xO-2Uh"/>
+                <constraint firstItem="4FB-Nc-B4e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="azX-Pn-ehf"/>
+                <constraint firstAttribute="trailing" secondItem="RUK-gp-Po9" secondAttribute="trailing" constant="71" id="cKW-s9-ARw"/>
+                <constraint firstAttribute="trailing" secondItem="4FB-Nc-B4e" secondAttribute="trailing" id="f8I-Cn-4sR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pageContrl" destination="RUK-gp-Po9" id="jhX-Lr-suZ"/>
+                <outlet property="scrollView" destination="4FB-Nc-B4e" id="DeP-ed-Met"/>
+            </connections>
+            <point key="canvasLocation" x="233" y="302"/>
+        </view>
+    </objects>
+</document>

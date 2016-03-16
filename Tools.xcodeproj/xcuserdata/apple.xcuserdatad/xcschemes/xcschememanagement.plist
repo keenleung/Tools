@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>ImageCycle(图片无线轮播).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>LBProgressHUD.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -73,6 +78,16 @@
 			<true/>
 		</dict>
 		<key>18BD756C1C9057CF00FEBCC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18E286D61C99AFA7007FEAA6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18E286FA1C99B4C4007FEAA6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
